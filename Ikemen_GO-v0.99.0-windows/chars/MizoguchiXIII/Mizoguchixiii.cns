@@ -1,0 +1,125 @@
+;---------------------- Integer variable list ----------------------
+
+; var(0):= -3, 1000, 1005, 1006, 1015, 1016, 1017, 1010, 1011, 1012, 1013, 1041, 9999
+; var(1):= 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1050, 1051, 1055, 9999
+; var(2):= -3, 1001, 1003, 1014, 2001, 9999, 40
+; var(3):= 9999, 40
+; var(4):= 9999, 100, 40
+; var(5):= 300, 650, -2, 200, 205, 220, 210, 215, 230, 235, 245, 240, 400, 410, 411, 430, 440, 450, 600, 610, 630, 640, 660, 804, 806, 810, 1052, 2005, 2006, 2010, 2030, 2031, 9999
+; var(6):= 52000, 9999
+; var(7):= 9999
+; var(8):= 300, 650, -2, 200, 205, 220, 210, 215, 230, 235, 245, 240, 400, 410, 411, 430, 440, 450, 600, 610, 630, 640, 660, 1000, 1005, 1006, 1015, 1016, 1017, 1010, 1011, 1012, 1013, 1025, 1030, 1031, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1050, 1051, 1055, 1052, 1056, 2000, 2005, 2006, 2010, 2030, 2031, 9999
+; var(9):= -2, 9999
+;var(10):= 900, 901, -3, 9999
+;var(11):= -3, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1055, 9999
+;var(12):= -3, 1001, 1003, 1014, 9999
+;var(13):= 2030, 2031, 9999
+;var(14):= 300, 650, -2, 200, 205, 220, 210, 215, 230, 235, 245, 240, 400, 410, 411, 430, 440, 450, 600, 610, 630, 640, 660, 1025, 1030, 1031, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1050, 1051, 1055, 1052, 1056, 2005, 2006, 2031, 9999
+;var(15):= -2
+;var(16):= -2
+;var(17):= 1000, 1005, 1006, 1015, 1016, 1017, 1010, 1011, 1012, 1013
+;var(18):= -3, 1001, 1003, 1014
+;var(19):= -3, 9999
+;var(20):= -2, 9999
+;var(21):= 190, -2, 9999
+;var(22):= -2
+;var(23):= -3, 7000
+;var(24):= 7000
+;var(25):= -2, 1001, 1002, 1003, 1004, 1014, 1020, 9999
+;var(26):= 101
+;var(27):= -2
+;var(28):= -3
+;var(29):= 2011
+;var(30):= -2
+;var(31):= -3, 2000, 2005, 2006, 2010, 2030, 2031
+;var(32):= -3
+;var(33):= 220, 2011
+;var(34):= -2
+;var(36):= -2
+;var(37):= -2
+;var(38):= -2
+;var(40):= -3
+;var(42):= 9999
+;var(57):= 300, 650, -2, -3, 200, 205, 220, 210, 215, 230, 235, 245, 240, 400, 410, 411, 430, 440, 450, 600, 610, 630, 640, 660, 801, 804, 806, 810, 1000, 1005, 1006, 1015, 1016, 1017, 1010, 1011, 1012, 1013, 1025, 1030, 1031, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1050, 1051, 1055, 1052, 1056, 1057, 2000, 2005, 2006, 2010, 2030, 2031, 1001, 1002, 1003, 1004, 1014, 1020, 7000
+;var(59):= 9999
+
+;---------------------- Float variable list ----------------------
+
+; fvar(1):= 1001, 1003, 1014, 2001
+; fvar(2):= -2
+; fvar(3):= 1015, 1016
+; fvar(4):= 1015, 1016
+; fvar(6):= -3
+
+
+
+
+
+[Data]
+life = 1000
+power = 5000
+attack = 100
+defence = 100
+fall.defence_up = 50
+liedown.time = 60
+airjuggle = 15
+sparkno = 2
+guard.sparkno = 40
+KO.echo = 0
+volume = 0
+IntPersistIndex = 50
+FloatPersistIndex = 40
+
+[Size]
+xscale = 1           ;Horizontal scaling factor.
+yscale = 1           ;Vertical scaling factor.
+ground.back = 18     ;Player width (back, ground)
+ground.front = 18    ;Player width (front, ground)
+air.back = 14        ;Player width (back, air)
+air.front =19       ;Player width (front, air)
+height = 55      ;Height of player (for opponent to jump over)
+attack.dist = 160    ;Default attack distance
+proj.attack.dist = 90 ;Default attack distance for projectiles
+proj.doscale = 0     ;Set to 1 to scale projectiles too
+head.pos = 3, -93   ;Approximate position of head
+mid.pos = -2, -63    ;Approximate position of midsection
+shadowoffset = 0     ;Number of pixels to vertically offset the shadow
+draw.offset = 0,0    ;Player drawing offset in pixels (x, y)
+
+[Velocity]
+walk.fwd     = 2.7        ;??????
+walk.back    = -2.4        ;??????
+run.fwd      = 5.8, 0       ;????????(X?,Y?)
+run.back     = -6.3,-3.8    ;?????????(X?,Y?)
+jump.neu     = 0,-10.7    ;????????(X?,Y?)
+jump.back    = -3.5           ;???????
+jump.fwd     = 3.4            ;???????
+runjump.back = -3.55,-8.1   ;???????????????(?????)
+runjump.fwd  = 4.6,-8.5     ;??????????????(?????)
+airjump.neu  = 0,-8.1       ;??????????(?????)
+airjump.back = -2.5         ;?????????(?????)
+airjump.fwd  = 2.55         ;?????????(?????)
+air.gethit.groundrecover = -.15,-3.5  ;Velocity for ground recovery state (x, y) **MUGEN 1.0**
+air.gethit.airrecover.mul = .5,.2     ;Multiplier for air recovery velocity (x, y) **MUGEN 1.0**
+air.gethit.airrecover.add = 0,-4.5    ;Velocity offset for air recovery (x, y) **MUGEN 1.0**
+air.gethit.airrecover.back = -1       ;Extra x-velocity for holding back during air recovery **MUGEN 1.0**
+air.gethit.airrecover.fwd = 0         ;Extra x-velocity for holding forward during air recovery **MUGEN 1.0**
+air.gethit.airrecover.up = -2         ;Extra y-velocity for holding up during air recovery **MUGEN 1.0**
+air.gethit.airrecover.down = 1.5     ;.
+
+[Movement]
+airjump.num     = 0      ;????????????(?????)
+airjump.height  = 35     ;????????????????????(?????)
+yaccel          = .62   ;??(???????)
+stand.friction  = .85    ;?????????
+crouch.friction = .82    ;???????????
+air.gethit.groundlevel = 10          ;Y-position at which a falling player is considered to hit the ground **MUGEN 1.0**
+air.gethit.groundrecover.ground.threshold = -20 ;Y-position below which falling player can use the recovery command **MUGEN 1.0**
+air.gethit.groundrecover.groundlevel = 10   ;Y-position at which player in the ground recovery state touches the ground **MUGEN 1.0**
+air.gethit.airrecover.threshold = -1  ;Y-velocity above which player may use the air recovery command **MUGEN 1.0**
+air.gethit.airrecover.yaccel = .35    ;Vertical acceleration for player in the air recovery state **MUGEN 1.0**
+air.gethit.trip.groundlevel = 10      ;Y-position at which player in the tripped state touches the ground **MUGEN 1.0**
+down.bounce.offset = 0, 20            ;Offset for player bouncing off the ground (x, y) **MUGEN 1.0**
+down.bounce.yaccel = .4               ;Vertical acceleration for player bouncing off the ground **MUGEN 1.0**
+down.bounce.groundlevel = 12          ;Y-position at which player bouncing off the ground touches the ground again **MUGEN 1.0**
+down.friction.threshold = .05

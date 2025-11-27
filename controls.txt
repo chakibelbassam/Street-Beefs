@@ -1,0 +1,179 @@
+- 2 players control ( laptop )
+
+player 1 
+
+Movements:
+Up               :s
+Down             :z
+Left             :a
+Right            :d
+
+Attacks:
+Light Kick (LK)  :q
+Medium Kick (MK) :w
+Heavy Kick (HK)  :e
+Light Punch (LP) :x
+Medium Punch (MP):c
+Heavy Punch (HP) :v
+
+
+player 2 
+
+Movements:
+Up               : arrow up
+Down             : arrow down
+Left             : arrow left
+Right            : arrow right
+
+Attacks:
+Light Kick (LK)  :i
+Medium Kick (MK) :o
+Heavy Kick (HK)  :p
+Light Punch (LP) :j
+Medium Punch (MP):k
+Heavy Punch (HP) :l
+
+
+
+- 2 players control ( num pad)
+
+Movements:
+Up               :w
+Down             :s
+Left             :a
+Right            :d
+
+Attacks:
+Light Kick (LK)  :y
+Medium Kick (MK) :u
+Heavy Kick (HK)  :i
+Light Punch (LP) :h
+Medium Punch (MP):j
+Heavy Punch (HP) :k
+
+
+player 2 
+
+Movements:
+Up               : arrow up
+Down             : arrow down
+Left             : arrow left
+Right            : arrow right
+
+Attacks:
+Light Kick (LK)  :4
+Medium Kick (MK) :5
+Heavy Kick (HK)  :6
+Light Punch (LP) :1
+Medium Punch (MP):2
+Heavy Punch (HP) :3
+
+
+
+- 1 player controls
+
+player 1
+
+Movements:
+Up               :w
+Down             :s
+Left             :a
+Right            :d
+
+Attacks:
+Light Kick (LK)  :i
+Medium Kick (MK) :o
+Heavy Kick (HK)  :p
+Light Punch (LP) :j
+Medium Punch (MP):k
+Heavy Punch (HP) :l
+
+player 2 
+
+Movements:
+Up               : arrow up
+Down             : arrow down
+Left             : arrow left
+Right            : arrow right
+
+Attacks:
+Light Kick (LK)  :;
+Medium Kick (MK) :'
+Heavy Kick (HK)  :#
+Light Punch (LP) :,
+Medium Punch (MP):.
+Heavy Punch (HP) :/
+
+
+- custom controls 1
+
+player 1
+
+Movements:
+Up               :w
+Down             :s
+Left             :a
+Right            :d
+
+Attacks:
+Light Kick (LK)  :i
+Medium Kick (MK) :o
+Heavy Kick (HK)  :p
+Light Punch (LP) :j
+Medium Punch (MP):k
+Heavy Punch (HP) :l
+
+player 2 
+
+Movements:
+Up               : arrow up
+Down             : arrow down
+Left             : arrow left
+Right            : arrow right
+
+Attacks:
+Light Kick (LK)  :;
+Medium Kick (MK) :'
+Heavy Kick (HK)  :#
+Light Punch (LP) :,
+Medium Punch (MP):.
+Heavy Punch (HP) :/
+
+
+
+- custom controls 2
+
+player1
+
+Movements:
+Up               : arrow up
+Down             : arrow down
+Left             : arrow left
+Right            : arrow right
+
+Attacks:
+Light Kick (LK)  :q
+Medium Kick (MK) :w
+Heavy Kick (HK)  :e
+Light Punch (LP) :a
+Medium Punch (MP):s
+Heavy Punch (HP) :d
+
+
+player 2
+
+player 2 
+
+Movements:
+Up               : y
+Down             : h
+Left             : t
+Right            : u
+
+Attacks:
+Light Kick (LK)  :;
+Medium Kick (MK) :'
+Heavy Kick (HK)  :#
+Light Punch (LP) :,
+Medium Punch (MP):.
+Heavy Punch (HP) :/

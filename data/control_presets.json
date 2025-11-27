@@ -1,0 +1,179 @@
+{
+  "defaultPreset": "laptop_2p",
+  "actions": {
+    "up": {"button": "up", "label": "Up"},
+    "down": {"button": "down", "label": "Down"},
+    "left": {"button": "left", "label": "Left"},
+    "right": {"button": "right", "label": "Right"},
+    "lp": {"button": "a", "label": "Light Punch"},
+    "mp": {"button": "b", "label": "Medium Punch"},
+    "hp": {"button": "c", "label": "Heavy Punch"},
+    "lk": {"button": "x", "label": "Light Kick"},
+    "mk": {"button": "y", "label": "Medium Kick"},
+    "hk": {"button": "z", "label": "Heavy Kick"},
+    "start": {"button": "start", "label": "Start/Pause"},
+    "menu": {"button": "menu", "label": "Menu"}
+  },
+  "presets": [
+    {
+      "id": "laptop_2p",
+      "name": "2 players control (laptop)",
+      "players": {
+        "p1": {
+          "up": "s",
+          "down": "z",
+          "left": "a",
+          "right": "d",
+          "lk": "q",
+          "mk": "w",
+          "hk": "e",
+          "lp": "x",
+          "mp": "c",
+          "hp": "v",
+          "start": "RETURN"
+        },
+        "p2": {
+          "up": "UP",
+          "down": "DOWN",
+          "left": "LEFT",
+          "right": "RIGHT",
+          "lk": "i",
+          "mk": "o",
+          "hk": "p",
+          "lp": "j",
+          "mp": "k",
+          "hp": "l",
+          "start": "RSHIFT"
+        }
+      }
+    },
+    {
+      "id": "numpad_2p",
+      "name": "2 players control (num pad)",
+      "players": {
+        "p1": {
+          "up": "w",
+          "down": "s",
+          "left": "a",
+          "right": "d",
+          "lk": "y",
+          "mk": "u",
+          "hk": "i",
+          "lp": "h",
+          "mp": "j",
+          "hp": "k",
+          "start": "RETURN"
+        },
+        "p2": {
+          "up": "UP",
+          "down": "DOWN",
+          "left": "LEFT",
+          "right": "RIGHT",
+          "lk": "4",
+          "mk": "5",
+          "hk": "6",
+          "lp": "1",
+          "mp": "2",
+          "hp": "3",
+          "start": "RSHIFT"
+        }
+      }
+    },
+    {
+      "id": "one_player",
+      "name": "1 player controls",
+      "players": {
+        "p1": {
+          "up": "w",
+          "down": "s",
+          "left": "a",
+          "right": "d",
+          "lk": "i",
+          "mk": "o",
+          "hk": "p",
+          "lp": "j",
+          "mp": "k",
+          "hp": "l",
+          "start": "RETURN"
+        },
+        "p2": {
+          "up": "UP",
+          "down": "DOWN",
+          "left": "LEFT",
+          "right": "RIGHT",
+          "lk": ";",
+          "mk": "'",
+          "hk": "#",
+          "lp": ",",
+          "mp": ".",
+          "hp": "/",
+          "start": "RSHIFT"
+        }
+      }
+    },
+    {
+      "id": "custom_1",
+      "name": "custom controls 1",
+      "players": {
+        "p1": {
+          "up": "w",
+          "down": "s",
+          "left": "a",
+          "right": "d",
+          "lk": "i",
+          "mk": "o",
+          "hk": "p",
+          "lp": "j",
+          "mp": "k",
+          "hp": "l",
+          "start": "RETURN"
+        },
+        "p2": {
+          "up": "UP",
+          "down": "DOWN",
+          "left": "LEFT",
+          "right": "RIGHT",
+          "lk": ";",
+          "mk": "'",
+          "hk": "#",
+          "lp": ",",
+          "mp": ".",
+          "hp": "/",
+          "start": "RSHIFT"
+        }
+      }
+    },
+    {
+      "id": "custom_2",
+      "name": "custom controls 2",
+      "players": {
+        "p1": {
+          "up": "UP",
+          "down": "DOWN",
+          "left": "LEFT",
+          "right": "RIGHT",
+          "lk": "q",
+          "mk": "w",
+          "hk": "e",
+          "lp": "a",
+          "mp": "s",
+          "hp": "d",
+          "start": "RETURN"
+        },
+        "p2": {
+          "up": "y",
+          "down": "h",
+          "left": "t",
+          "right": "u",
+          "lk": ";",
+          "mk": "'",
+          "hk": "#",
+          "lp": ",",
+          "mp": ".",
+          "hp": "/",
+          "start": "RSHIFT"
+        }
+      }
+    }
+  ]
+}
