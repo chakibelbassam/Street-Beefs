@@ -4,6 +4,9 @@ local options = {}
 --;===========================================================
 options.modified = false
 options.needReload = false
+if config.CustomAIDifficulty == nil then
+	config.CustomAIDifficulty = math.min(8, math.max(1, config.Difficulty or 5))
+end
 
 --return string depending on bool
 function options.f_boolDisplay(bool, t, f)
@@ -135,6 +138,7 @@ options.t_itemname = {
 			config.DebugKeys = true
 			config.DebugMode = true
 			config.Difficulty = 5
+			config.CustomAIDifficulty = 5
 			--config.EscOpensMenu = true
 			config.ExternalShaders = {}
 			--config.FirstRun = false
@@ -253,6 +257,21 @@ options.t_itemname = {
 			sndPlay(motif.files.snd_data, motif.option_info.cursor_move_snd[1], motif.option_info.cursor_move_snd[2])
 			config.Difficulty = config.Difficulty - 1
 			t.items[item].vardisplay = config.Difficulty
+			options.modified = true
+		end
+		return true
+	end,
+	--Custom AI Difficulty
+	['customaidifficulty'] = function(t, item, cursorPosY, moveTxt)
+		if main.f_input(main.t_players, {'$F'}) and config.CustomAIDifficulty < 8 then
+			sndPlay(motif.files.snd_data, motif.option_info.cursor_move_snd[1], motif.option_info.cursor_move_snd[2])
+			config.CustomAIDifficulty = config.CustomAIDifficulty + 1
+			t.items[item].vardisplay = config.CustomAIDifficulty
+			options.modified = true
+		elseif main.f_input(main.t_players, {'$B'}) and config.CustomAIDifficulty > 1 then
+			sndPlay(motif.files.snd_data, motif.option_info.cursor_move_snd[1], motif.option_info.cursor_move_snd[2])
+			config.CustomAIDifficulty = config.CustomAIDifficulty - 1
+			t.items[item].vardisplay = config.CustomAIDifficulty
 			options.modified = true
 		end
 		return true
@@ -1301,6 +1320,9 @@ options.t_vardisplay = {
 	end,
 	['difficulty'] = function()
 		return config.Difficulty
+	end,
+	['customaidifficulty'] = function()
+		return config.CustomAIDifficulty
 	end,
 	['explodmax'] = function()
 		return config.MaxExplod

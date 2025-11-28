@@ -506,49 +506,23 @@ p2.name.spacing = 0,14
 ;-----------------------
 ;VS Match up screen background
 [VersusBGdef]
+bgclearcolor = 0,0,0
+spr = assets/bg3.sff
+
+[VersusBG 0]
+type = normal
+spriteno = 5,0
+start = 0,10
+tile = 1,2
+velocity = -1
+mask = 0
 
 [VersusBG 1]
-type  = normal
-spriteno = 100,0
-start = 0,0
-tile  = 1,1
-velocity = 0,1.5
-
-[VersusBG 2] ;VS Screen
-type  = normal
-spriteno = 100,1
-start = 20,13
-tile  = 1,1
-trans = sub
-window = 19,30, 140,171
-velocity = -2, 0
-
-[VersusBG 3] ;VS Screen
-type  = normal
-spriteno = 100,1
-start = 20,13
-tile  = 1,1
-trans = sub
-window = 179,30, 300,171
-velocity = 2, 0
-
-[VersusBG 4] ;VS Logo
-type  = anim
-actionno = 200
-layerno = 1 ; Front
-start = 0,95
-
-[Begin Action 200]
-200,4, 0,0, 1
-200,3, 0,0, 2
-200,2, 0,0, 3
-200,1, 0,0, 4
-200,0, 0,0, 8
-200,5, 0,0, 3
-200,6, 0,0, 3
-200,7, 0,0, 3
-200,8, 0,0, 3
-200,0, 0,0, -1
+type = normal
+spriteno = 0,0
+start = 0,40
+mask = 1
+trans = add
 
 ;-------------------------------------------------------------------
 ;Demo mode definition
@@ -1122,31 +1096,23 @@ winquote.time = 0         ;Ikemen feature
 ;-----------------------
 ;Victory screen background
 [VictoryBGdef]
+bgclearcolor = 0,0,0
+spr = assets/bg3.sff
+
+[VictoryBG 0]
+type = normal
+spriteno = 5,0
+start = 0,10
+tile = 1,2
+velocity = -1
+mask = 0
 
 [VictoryBG 1]
-type  = normal
-spriteno = 100,0
-start = 0,0
-tile  = 1,1
-velocity = 0,1.5
-
-[VictoryBG 2]
-type  = normal
-spriteno = 100,1
-start = 20,13
-tile  = 1,1
-trans = sub
-window = 0,19, 319,160
-velocity = -2, 0
-
-[VictoryBG 3]
-type  = normal
-spriteno = 100,1
-start = 10,170
-tile  = 1,1
-trans = sub
-window = 15,170, 304,229
-velocity = 0, 0
+type = normal
+spriteno = 0,0
+start = 0,40
+mask = 1
+trans = add
 
 ;-------------------------------------------------------------------
 ;Win screen definition
@@ -1166,6 +1132,23 @@ wintext.layerno = 2
 ;-----------------------
 ;Win screen background
 [WinBGdef] ;Ikemen feature
+bgclearcolor = 0,0,0
+spr = assets/bg3.sff
+
+[WinBG 0]
+type = normal
+spriteno = 5,0
+start = 0,10
+tile = 1,2
+velocity = -1
+mask = 0
+
+[WinBG 1]
+type = normal
+spriteno = 0,0
+start = 0,40
+mask = 1
+trans = add
 
 ; results screens variants reuse WinBgDef if dedicated ResultsBgDef is not set
 

@@ -1943,6 +1943,7 @@ end
 function motif.setBaseOptionInfo()
 	motif.option_info.menu_itemname_menugame = "Game Settings"
 	motif.option_info.menu_itemname_menugame_difficulty = "Difficulty Level"
+	motif.option_info.menu_itemname_menugame_customaidifficulty = "Custom AI Difficulty"
 	motif.option_info.menu_itemname_menugame_roundtime = "Time Limit"
 	motif.option_info.menu_itemname_menugame_lifemul = "Life"
 	motif.option_info.menu_itemname_menugame_singlevsteamlife = "Single VS Team Life"
@@ -2067,6 +2068,7 @@ function motif.setBaseOptionInfo()
 	main.t_sort.option_info.menu = {
 		"menugame",
 		"menugame_difficulty",
+		"menugame_customaidifficulty",
 		"menugame_roundtime",
 		"menugame_lifemul",
 		"menugame_singlevsteamlife",

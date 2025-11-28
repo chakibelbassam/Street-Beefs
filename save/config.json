@@ -41,7 +41,7 @@
   "DebugFontScale": 0.5,
   "DebugKeys": true,
   "DebugMode": true,
-  "Difficulty": 1,
+  "Difficulty": 8,
   "EscOpensMenu": true,
   "ExternalShaders": [],
   "FirstRun": false,
@@ -102,7 +102,7 @@
   "RatioRecoveryBase": 0,
   "RatioRecoveryBonus": 20,
   "RoundsNumSimul": 2,
-  "RoundsNumSingle": 2,
+  "RoundsNumSingle": 5,
   "RoundsNumTag": 2,
   "RoundTime": 99,
   "ScreenshotFolder": "",
@@ -136,55 +136,36 @@
     {
       "Joystick": -1,
       "Buttons": [
+        "s",
+        "z",
+        "a",
+        "d",
+        "x",
+        "c",
+        "v",
+        "q",
+        "w",
+        "e",
+        "RETURN",
+        "Not used",
+        "Not used",
+        "Not used"
+      ]
+    },
+    {
+      "Joystick": -1,
+      "Buttons": [
         "UP",
         "DOWN",
         "LEFT",
         "RIGHT",
-        "z",
-        "x",
-        "c",
-        "a",
-        "s",
-        "d",
-        "RETURN",
-        "q",
-        "w",
-        "Not used"
-      ]
-    },
-    {
-      "Joystick": -1,
-      "Buttons": [
-        "i",
-        "k",
         "j",
+        "k",
         "l",
-        "f",
-        "g",
-        "h",
-        "r",
-        "t",
-        "y",
+        "i",
+        "o",
+        "p",
         "RSHIFT",
-        "LBRACKET",
-        "RBRACKET",
-        "Not used"
-      ]
-    },
-    {
-      "Joystick": -1,
-      "Buttons": [
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
         "Not used",
         "Not used",
         "Not used"
@@ -193,17 +174,36 @@
     {
       "Joystick": -1,
       "Buttons": [
+        "UP",
+        "DOWN",
+        "LEFT",
+        "RIGHT",
+        "j",
+        "k",
+        "l",
+        "i",
+        "o",
+        "p",
+        "RSHIFT",
         "Not used",
         "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
-        "Not used",
+        "Not used"
+      ]
+    },
+    {
+      "Joystick": -1,
+      "Buttons": [
+        "UP",
+        "DOWN",
+        "LEFT",
+        "RIGHT",
+        "j",
+        "k",
+        "l",
+        "i",
+        "o",
+        "p",
+        "RSHIFT",
         "Not used",
         "Not used",
         "Not used"
@@ -287,5 +287,8 @@
         "6"
       ]
     }
-  ]
+  ],
+  "CustomAIDifficulty": 4,
+  "ShowAIThoughts": true,
+  "AIThoughtSlots": 2
 }

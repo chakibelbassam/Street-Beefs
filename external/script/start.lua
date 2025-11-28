@@ -208,6 +208,18 @@ function start.f_aiRamp(currentMatch)
 end
 --;===========================================================
 
+local function clampAILevel(value)
+	if value == nil then
+		return 1
+	end
+	if value > 8 then
+		return 8
+	elseif value < 1 then
+		return 1
+	end
+	return value
+end
+
 --calculates AI level
 function start.f_difficulty(player, offset)
 	local t = {}
@@ -218,9 +230,15 @@ function start.f_difficulty(player, offset)
 	end
 	if t.ai ~= nil then
 		return t.ai
-	else
-		return config.Difficulty + offset
 	end
+	local baseOffset = offset or 0
+	local baseDifficulty = config.Difficulty or 1
+	local customDifficulty = config.CustomAIDifficulty or baseDifficulty
+	local isCustomAI = t.dir ~= nil and t.dir:lower():find('chars/chak/') ~= nil
+	if isCustomAI then
+		return clampAILevel(customDifficulty + baseOffset)
+	end
+	return clampAILevel(baseDifficulty + baseOffset)
 end
 
 --assigns AI level, remaps input

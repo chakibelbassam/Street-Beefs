@@ -45,6 +45,15 @@ end
 
 --Data loading from config.json
 config = json.decode(main.f_fileRead(main.flags['-config']))
+if config.CustomAIDifficulty == nil then
+	local baseDifficulty = config.Difficulty or 5
+	if baseDifficulty < 1 then
+		baseDifficulty = 1
+	elseif baseDifficulty > 8 then
+		baseDifficulty = 8
+	end
+	config.CustomAIDifficulty = baseDifficulty
+end
 
 --Data loading from stats.json
 stats = json.decode(main.f_fileRead(main.flags['-stats']))
