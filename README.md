@@ -18,10 +18,10 @@
 ## Project Overview
 Street Beefs builds on Ikemen GO v0.99.0 with:
 - **AI intent overlay**: `external/mods/ai_thoughts.lua` reads per-character vars (51/52) and renders thought bubbles with category colors and randomized text variants.
-- **Character AI upgrade**: `chars/chak/Mizoguchixiii.cmd` adds plan locks (corner pressure, keepaway, frustration), frustration meter, pattern checks, and emits thought IDs/categories.
+- **Character AI upgrade**: `chars/chak/Mizoguchixiii.cmd` made the Ai able to "think" , i added plan locks (corner pressure, keepaway, frustration), frustration meter, pattern checks, and emits thought IDs/categories.
 - **Controls UX**: Preset-driven keybinding UI in `external/script/options.lua`, backed by JSON presets and saved bindings.
 - **Screenpack assets**: Custom backgrounds under `assets/`; trimmed roster in `data/select.def`.
-- **Content**: Custom Mizoguchi port (`chars/chak`), added Jon Moxley slot, custom stage (`stages/Mizoguchixiii.*`).
+- **Content**: Custom Mizoguchi port (`chars/chak`).
 
 ## Notable Files ( Files i customised/made)
 - `external/mods/ai_thoughts.lua` — AI thought HUD overlay.
