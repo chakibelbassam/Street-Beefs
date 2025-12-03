@@ -4,8 +4,8 @@
 1. Run `Street Beefs.exe`.
 2. On the main menu, press **Arrow Down** to highlight **VS Mode**, then press **Enter**.
 3. In the character select:
-   - Move to **Chakib** (custom Mizoguchi). Press **K** to confirm. ( THIS THE CHARACTER THAT HAS MY CUSTOM AI WITH THE ABILITY TO "think and plan")
-   - Move to **Kung Fu Man**. Press **X** to confirm.
+   - Move to **Chakib** (custom Mizoguchi). Press **K** to confirm. ( THIS IS THE CHARACTER THAT HAS MY CUSTOM AI WITH THE ABILITY TO "think and plan")
+   - Move to **Kung Fu Man**. Press **X** to confirm. ( THIS IS MUGEN's DEFAULT AI WHICH PICKS DECISIONS RANDOMLY aka NOT VERY SMART)
 4. When the match starts, press **Ctrl+1** (P1 AI) and **Ctrl+2** (P2 AI) to engage both characters’ AIs.
 5. Watch the match; Mizoguchi’s AI will surface thought bubbles describing its current plan (pressure/keepaway/frustration/etc.).
 
